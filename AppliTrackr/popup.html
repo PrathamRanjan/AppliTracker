@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Internship Application Tracker</title>
+  <style>
+    body { font-family: Arial, sans-serif; width: 300px; }
+    #status { margin-top: 10px; color: green; }
+  </style>
+</head>
+<body>
+  <h2>Internship Application Tracker</h2>
+  <div>
+    <label for="company">Company:</label>
+    <input type="text" id="company"><br>
+    <label for="role">Role:</label>
+    <input type="text" id="role"><br>
+    <label for="date">Date Applied:</label>
+    <input type="text" id="date" readonly><br>
+    <label for="spreadsheetLink">Google Sheet Link:</label>
+    <input type="text" id="spreadsheetLink"><br>
+    <button id="scan">Scan</button>
+    <button id="update">Update</button>
+    <div id="status"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
