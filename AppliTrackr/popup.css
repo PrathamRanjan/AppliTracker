@@ -1,0 +1,55 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    width: 300px;
+    padding: 20px;
+    background-color: #e3f2fd; /* Light blue background */
+    color: #0d47a1; /* Dark blue text */
+  }
+  
+  h2 {
+    text-align: center;
+    color: #0d47a1; /* Dark blue text */
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #0d47a1; /* Dark blue border */
+    border-radius: 3px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  
+  button {
+    width: 48%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0d47a1; /* Dark blue background */
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif; /* Set font to Quicksand */
+  }
+  
+  button:hover {
+    background-color: #1565c0; /* Lighter blue on hover */
+  }
+  
+  #status {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
